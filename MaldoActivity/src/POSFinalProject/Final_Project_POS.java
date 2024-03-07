@@ -28,7 +28,6 @@ public class Final_Project_POS {
             }
 
         }
-        //hehe
         
     }
 }

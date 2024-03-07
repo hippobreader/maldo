@@ -14,15 +14,27 @@ public class POS {
         cart = new ArrayList<>();
         prices = new ArrayList<>();
         products = new String[] { "Minerale Bottled Water 1L",
-                "Nissin Cup Noodles       ",
-                "Coke 1.5L                ",
-                "Gardenia Loafbread       ",
-                "Onigiri                  " };
+                "Nissin Cup Noodles",
+                "Coke 1.5L",
+                "Gardenia Loafbread",
+                "Donut",
+                "Ice Cream",
+                "Redbull",
+                "Toblerone",
+                "Burger",
+                "Milk",
+                "Onigiri" };
         productprices = new double[] { 20.00,
                 41.00,
                 85.00,
                 68.75,
-                35.00 };
+                35.00,
+                20.00,
+                45.00,
+                75.00,
+                35.00,
+                80.00,
+            35.00};
     }
 
     // method para ma display ang tanan products og prices
