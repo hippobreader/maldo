@@ -43,7 +43,7 @@ public class POS {
         prices.add(selectedprice);// gi store ang prices sa selected product na number na gi pili sa user na
                                   // product
     }
-
+    
     // method para ma checkout ang purchase
     public void checkout() {
         Scanner sc = new Scanner(System.in);
@@ -81,4 +81,6 @@ public class POS {
         }
         return total;// ireturn nya ang total prices sa (double total) na naa sa tasas
     }
+
+    
 }
