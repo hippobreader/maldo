@@ -19,7 +19,7 @@ public class MaldoAssignment {
         else if (temp > 60) {
             System.out.println("Tennis");
         } 
-        else if (temp >= 40) {
+        else if (temp >= 40) {  
             System.out.println("Golf");
         } 
         else 
