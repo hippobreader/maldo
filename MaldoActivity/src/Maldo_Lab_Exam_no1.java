@@ -1,6 +1,5 @@
-import java.util.Arrays;
-
-public class maldo {
+import java.util.*;;
+public class Maldo_Lab_Exam_no1 {
     public static int findLongestConsecutiveSequence(int[] nums) {
         if (nums.length == 0) return 0;
 
@@ -24,5 +23,6 @@ public class maldo {
 
         
         return Math.max(longestStreak, currentStreak);
+    }
 }
-}
+
